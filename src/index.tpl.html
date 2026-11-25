@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Mahir: usta ve ev hizmetlerinde tek muhatap. Demo web uygulaması.">
+<title>Mahir · usta ve hizmet platformu</title>
+<link rel="icon" href="/*FAVICON*/">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&amp;display=swap" rel="stylesheet">
+<style>
+/*CSS*/
+</style>
+</head>
+<body>
+<template id="logo-tpl">/*LOGO*/</template>
+<div id="app"><noscript>Mahir demo uygulaması JavaScript ile çalışır.</noscript></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script>
+/*JS*/
+try { basla(); }
+catch (e) {
+  console.error(e);
+  try { localStorage.removeItem(ANAHTAR); S = null; basla(); }
+  catch (e2) { console.error(e2); document.getElementById('app').innerHTML = '<p style="padding:24px">Uygulama açılamadı. Sayfayı yenilemeyi dene.</p>'; }
+}
+</script>
+</body>
+</html>
