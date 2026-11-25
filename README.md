@@ -1,4 +1,4 @@
-# Mahir · web uygulaması (çalışan prototip)
+# Mahir Web Uygulaması
 
 Usta ve ev hizmetlerinde müşterinin yalnızca platformla muhatap olduğu modelin web uygulaması.
 Tek dosyalık, sunucusuz bir ön yüzdür: `dist/index.html` dosyasını tarayıcıda açmak yeterli.
